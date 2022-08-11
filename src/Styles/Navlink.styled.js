@@ -5,7 +5,6 @@ const Navlink = styled(Link)`
    text-decoration: none;
    color: inherit;
    margin: 0 1rem;
-   width: 10vw;
    text-align: center;
    font-size: 1.2rem;
 

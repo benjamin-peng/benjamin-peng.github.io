@@ -48,11 +48,16 @@ export default styled.div`
     }
     #contact-text {
         font-size: 1.1em;
-        margin-top: 1em;
+        margin-top: 4em;
         padding-top: 1em;
         width: calc(60% + 6em);
         text-align: center;
         border-top: 1px solid #b8b8b8;
+    }
+    @media only screen and (max-width: 1190px) {
+        #contact-text {
+            margin-top: 1em;
+        }
     }
     @media only screen and (max-width: 920px) {
         font-size: 0.8rem;

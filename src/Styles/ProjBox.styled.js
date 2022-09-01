@@ -26,7 +26,7 @@ export default styled.div`
     }
     .img-link {
         object-fit: cover;
-        width: 1.5em;
+        width: 20px;
     }
     .img-link:hover {
         cursor: pointer;
